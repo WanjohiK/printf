@@ -2,15 +2,15 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a string
+ * handle_write_char - Printing a string
  * @c: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
+ * @buffer: Buffering array to handle print
+ * @flags:  Calculating active flags.
+ * @width: getting width.
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Numbering of chars printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -46,16 +46,16 @@ int handle_write_char(char c, char buffer[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
+ * write_number - Printing a string
  * @is_negative: Lista of arguments
  * @ind: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @buffer: Buffering array to handle print
+ * @flags:  Calculating active flags
+ * @width: getting width.
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Numbering of chars printed.
  */
 int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
@@ -79,17 +79,17 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Write a number using a bufffer
- * @ind: Index at which the number starts on the buffer
- * @buffer: Buffer
- * @flags: Flags
+ * write_num - Writing a number using a bufffer
+ * @ind: Indexing at which the number starts on the buffer
+ * @buffer: Buffering
+ * @flags: Flaging
  * @width: width
  * @prec: Precision specifier
- * @length: Number length
+ * @length: Numbering length
  * @padd: Pading char
  * @extra_c: Extra char
  *
- * Return: Number of printed chars.
+ * Return: Numbering of printed chars.
  */
 int write_num(int ind, char buffer[],
 	int flags, int width, int prec,
