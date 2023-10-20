@@ -4,14 +4,14 @@
 #include <stddef.h>
 #include <string.h>
 /**
- * struct format - Represents a format specifier and its corresponding function
- * @id: The format specifier string,  "%s", "%d".
- * @f: A pointer to the function that handles the format specifier.
- */
+* struct format - Represents a format specifier and its corresponding function
+* @id: The format specifier string,  "%s", "%d".
+* @f: A pointer to the function that handles the format specifier.
+*/
 typedef struct format
 {
-        char *id;
-        int (*f)();
+char *id;
+int (*f)();
 } match;
 int _putchar(char c);
 int _printf(const char *format, ...);

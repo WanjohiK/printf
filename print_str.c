@@ -8,12 +8,12 @@
 
 int _strlen(char *str)
 {
-        int i;
+int i;
 
-        for (i = 0; str[i] != '\0'; i++)
-        {
-        }
-        return (i);
+for (i = 0; str[i] != '\0'; i++)
+{
+}
+return (i);
 }
 
 #include "main.h"
@@ -26,10 +26,10 @@ int _strlen(char *str)
 
 int _strlenc(const char *str)
 {
-        int i;
+int i;
 
-        for (i = 0; str[i] != '\0'; i++)
-        {
-        }
-        return (i);
+for (i = 0; str[i] != '\0'; i++)
+{
+}
+return (i);
 }
