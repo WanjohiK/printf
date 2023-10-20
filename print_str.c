@@ -1,35 +1,24 @@
 #include "main.h"
-
 /**
-* _strlen - Returns length of a string
-* @str: string pointer
-* Return: 1
+* print_string- function taht prints a string.
+* @val:expected arguments
+* Return:length
 */
-
-int _strlen(char *str)
+int print_string(va_list val)
 {
+char *str;
 int i;
+int len;
 
-for (i = 0; str[i] != '\0'; i++)
+str = va_arg(val, char *);
+if (str == NULL)
 {
+str = "(NULL)";
 }
-return (i);
-}
-
-#include "main.h"
-
-/**
-* _strlenc - Returns length of a constant string
-* @str: string pointer
-* Return: 1
-*/
-
-int _strlenc(const char *str)
+len = _strlen(str);
+for (i = 0; i < len; i++)
 {
-int i;
-
-for (i = 0; str[i] != '\0'; i++)
-{
+_putchar(str[i]);
 }
-return (i);
+return (len);
 }
