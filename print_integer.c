@@ -3,7 +3,7 @@
 #include <string.h>
 /**
 * printfsnprintf(num_str, sizeof(num_str), "%u", num);
-_int- function tha print integer
+_int- fprint integer
 * @args:int arguments holder
 * Return:integer
 */

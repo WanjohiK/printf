@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* printf_pointer- function that prints a pointer
+* printf_pointer- prints a pointer
 * @args:arguments holder
 * Return:printed char
 */

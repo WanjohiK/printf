@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* printf_unsigned- function tha print integer
+* printf_unsigned- tha print integer
 * @args:int arguments holder
 * Return:integer
 */

@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* printf_hex_lower-fuction that prints hexadecimal integer (lowercase)
+* printf_hex_lower-prints hexadeci integer (lowercase)
 * @args:interger argument holder
 * Return: the printed char
 */

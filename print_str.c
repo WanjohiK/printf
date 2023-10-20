@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_string- function taht prints a string.
+* print_string- prints a string that .
 * @val:expected arguments
 * Return:length
 */

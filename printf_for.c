@@ -3,9 +3,9 @@
 #include <string.h>
 #include <stdarg.h>
 /**
-* _printf-the function similar to printf
+* _printf-similar to printf
 * @format:the format string
-* Return:number of char printed
+* Return:char printed
 */
 
 int _printf(const char *format, ...)

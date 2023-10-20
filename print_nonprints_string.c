@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* printf_string_nonprint- fuction that prints a string with non printable char
+* printf_string_nonprint- prints a string with non printable char
 * @args:agurment holder
 * Return:printedChar
 */

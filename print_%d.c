@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* printf_integer- function tha print integer
+* printf_integer- tha print integer
 * @args:int arguments holder
 * Return:integer
 */

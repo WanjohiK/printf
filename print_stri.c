@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strlen - Returns length of a string
+* _strlen - length of a string
 * @str: string pointer
 * Return: 1
 */
@@ -19,7 +19,7 @@ return (i);
 #include "main.h"
 
 /**
-* _strlenc - Returns length of a constant string
+* _strlenc - length of a constant string
 * @str: string pointer
 * Return: 1
 */

@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
-* printf_char - fuction taht prints a character
+* printf_char - taht prints a character
 * @val: the aguments
 * Return:1 success
 */

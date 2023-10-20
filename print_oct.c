@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* printf_octal- function that prints the octal specifier
+* printf_octal- prints octal specifier
 * @args:inter arguments
 * Return:the printed character
 */

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <limits.h>
 /**
-*printf_binary-fuction that print the binary number
+*printf_binary-print the binary number
 *@args:argument holder for intager
 *Return:printed char
 */

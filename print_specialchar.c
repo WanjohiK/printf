@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_percent-function that prints special character %
+* print_percent-prints special character %
 * Return:i success
 */
 
